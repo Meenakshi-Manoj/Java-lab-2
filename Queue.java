@@ -1,11 +1,13 @@
+2.Define a class Queue for representing a queue data structure. The class must
+define a default constructor, a parameterized constructor and functions for en-
+queue, de-queue and display operations. Write a Java program to implement this.
+	
 import java.util.Scanner;
-
 public class Queue {
 
 	 Scanner sc = new Scanner(System.in);
 	int  n, front = -1, rear = -1, item;
 	 int[] Ar = new int[10];
-	
 	Queue() {
 		
 	}
